@@ -1,0 +1,8 @@
+version: '3'
+
+services:
+  cicdfun:
+    image: cicdfun
+    build:
+      context: ./CICDFun
+      dockerfile: Dockerfile
